@@ -1,0 +1,138 @@
+body {
+    background-color: #dddddd;
+}
+
+div#interface {
+    background-color: #ffffff;
+    margin: 15px 5px 15px 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3)
+}
+div#interface {
+    padding: 10px 10px 10px 10px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 dotted;
+    height: 275px;
+    background: url("../imagens/fundoheader2.png") 0px 1070px;
+}
+header#cabecalho h1 {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2 {
+    padding: 0px;
+    margin-top: 10px
+}
+header#cabecalho h2 {
+    font-size: 25px
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    color: black;
+    padding: 40px;
+}
+h2 {
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+}
+h3 {
+    font-family: Arial;
+    font-size: 28;
+    text-indent: 60px;
+    color: black;
+}
+p {
+    font-family: Arial;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 22px;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+figure.foto-legenda {
+    position: relative;
+    border: 6px solid rgba(60, 175, 190, 0.5);
+    box-shadow: 2px 2px 2px black;
+}
+figure.foto-legenda{
+    width: 30.8%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .3);
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+    transition: opacity .8s;
+}
+figure.foto-legenda:hover figcaption {
+    width: 100%; 
+    height: 100%; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+nav#menu ul {
+    text-transform: uppercase;
+    list-style: none;
+}
+nav#menu li{
+    display: inline;
+}
+nav#menu li a{
+    background-color: #dddddd;
+    padding: 8px;
+    margin: 0px;
+    transition: background-color .7s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
+    display: inline-block;
+}
+nav#menu li a:hover {
+    background-color: #606060;
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    text-decoration: underline;
+}
+
+figure.apresentacao {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 54%;
+}
+figure.list-anime {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 27%;
+}
+figure.list-mangas {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 15.4%;
+}
+
+footer#rodape {
+    border-top: 1px dotted #606060;
+}
+footer#rodape p {
+    text-align: center
+}
